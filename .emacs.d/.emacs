@@ -191,7 +191,7 @@
 ;; ----------
 ;; packages
 ;; ----------
-(ensure-package 'vertico) ;; I have a feeling that I could implement this manually and it would be very lightweight, but I'm too lazy frfr
+(ensure-package 'vertico) ;; I have a feeling that I could implement this manually and it would be very cool, but I'm too lazy frfr
 (ensure-package 'orderless) ;; useful bloat
 (ensure-package 'marginalia) ;; I don't use this very often, but yk sometimes it is useful
 (ensure-package 'gruber-darker-theme)
@@ -210,7 +210,6 @@
 ;; --------------
 ;; organization
 ;; --------------
-;; I don't even know what those things do, read somewhere that this makes Emacs stop doing stupid shit on my config
 (setq custom-file (expand-file-name "custom.el" user-emacs-directory))
 (when (file-exists-p custom-file)
   (load custom-file))
